@@ -602,9 +602,10 @@ pre code {
   .container {
     max-width: 960px;
   }
-  .bgImag{
+  .owl-carousel.home-slider .slider-item .slider-text .one-third{
     display: none;
   }
+  
 }
 
 @media (min-width: 1200px) {
@@ -12195,6 +12196,7 @@ h5,
   .owl-carousel.home-slider .slider-item .slider-text .one-third {
     width: 100%;
     z-index: 0;
+    display: none;
   }
 
   .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
