@@ -602,6 +602,9 @@ pre code {
   .container {
     max-width: 960px;
   }
+  .bgImag{
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) {
